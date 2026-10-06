@@ -1,0 +1,40 @@
+# 本机环境恢复用的备份文件（不进仓库）
+hosts.backup-*.txt
+
+# 操作系统
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# 编辑器与 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+out/
+target/
+bin/
+obj/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 日志与临时文件
+*.log
+*.tmp
+.cache/
+
+# 敏感信息
+.env
+.env.*
+*.pem
+*.key
